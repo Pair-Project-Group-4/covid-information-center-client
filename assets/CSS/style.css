@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.outter-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: white;
+}
+.inner {
+  position: absolute;
+}
+.inner-container {
+  width: 400px;
+  height: 530px;
+  position: absolute;
+  top: calc(50vh - 200px);
+  left: calc(50vw - 200px);
+  overflow: hidden;
+}
+.box {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica;
+  color: #fff;
+  background: rgba(14, 14, 16, 0.9);
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+.box h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 20px;
+}
+.box .title {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+.box input {
+  display: block;
+  width: 330px;
+  height: 50px;
+  margin: 20px auto;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+.box .form-control {
+  display: block;
+  width: 330px;
+  height: 100px;
+  margin: 20px auto;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
+.box input:focus,
+.box input:active,
+.box button:focus,
+.box button:active {
+  outline: none;
+}
+.box button {
+  background: #006241;
+  border: 0;
+  height: 50px;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  width: 330px;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.box button:active {
+  background: #144d2b;
+}
+.box p {
+  font-size: 14px;
+  text-align: center;
+}
+.jumbotron .display-6 {
+  color: black;
+  margin-top: 60px;
+}
+.image-todo {
+  width: 200px;
+  height: 120px;
+  margin-top: 17px;
+  margin-right: 50px;
+}
+.btn {
+  background-color: #006241;
+  color: white;
+}
+.btn:hover {
+  background: #144d2b;
+  color: white;
+}
